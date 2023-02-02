@@ -32,6 +32,7 @@
                (apply-rule rule-name rule graph))
           graph
           rules))
+
 (defn translate-strips [rules graph]
   (reduce (fn [old new] (if (= old new)
                           (reduced new)
@@ -42,7 +43,7 @@
 (defn state-to-string [state]
   (reduce (fn [result elem] (str result " " elem))
           ""
-          state))
+          (sort (vec state))))
 
 (defn convert-edge [[from to label]]
   [(state-to-string from)
@@ -55,6 +56,17 @@
     (graph->dot converted-nodes converted-edges
                 {:node {:shape :box}
                  :directed? true})))
+
+(defn state-in-graph? [{nodes :nodes} state]
+  (->> nodes
+       (filter (partial = state))
+       empty?
+       not))
+
+(defn get-state-transitions [{edges :edges} state]
+  (filter (fn [[from to transition]] (or (= state from)
+                                         (= state to)))
+          edges))
 
 (def initial-state #{"BoatLeft" "BoatEmpty" "WolfLeft" "SheepLeft" "CabbageLeft"})
 
@@ -171,6 +183,8 @@
              :del #{"BoatLeft"}
              :add #{"BoatRight"}}})
 
-(-> (translate-strips rules initial-graph)
+(def graph (translate-strips rules initial-graph))
+
+(->> (translate-strips rules initial-graph)
     graph-to-dot
     (spit "graph.dot"))

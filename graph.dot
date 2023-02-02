@@ -1,183 +1,182 @@
 digraph {
-
 node[shape=box]
-" WolfInBoat CabbageLeft SheepRight BoatLeft"
-" BoatEmpty SheepLeft BoatLeft WolfRight"
-" WolfInBoat CabbageLeft SheepLeft BoatLeft"
-" BoatEmpty WolfLeft SheepRight BoatLeft"
-" BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft"
-" WolfInBoat CabbageRight SheepLeft BoatLeft"
-" BoatEmpty CabbageLeft WolfLeft SheepRight BoatLeft"
-" BoatEmpty SheepRight BoatLeft WolfRight"
-" SheepInBoat CabbageRight BoatRight WolfRight"
-" BoatEmpty SheepLeft WolfLeft BoatRight"
-" WolfLeft CabbageInBoat BoatLeft"
-" BoatEmpty CabbageRight SheepLeft WolfLeft BoatLeft"
-" CabbageLeft SheepInBoat BoatLeft WolfRight"
-" SheepInBoat WolfLeft BoatRight"
-" CabbageLeft SheepInBoat WolfLeft BoatLeft"
-" BoatEmpty CabbageLeft WolfLeft BoatRight"
-" SheepLeft CabbageInBoat BoatLeft WolfRight"
-" BoatEmpty WolfLeft BoatRight"
-" WolfInBoat BoatRight SheepRight"
-" BoatEmpty CabbageLeft BoatLeft WolfRight"
-" BoatEmpty WolfLeft BoatRight SheepRight"
-" WolfLeft BoatRight CabbageInBoat SheepRight"
-" BoatEmpty CabbageLeft BoatRight SheepRight WolfRight"
+" BoatLeft CabbageLeft SheepRight WolfInBoat"
+" BoatEmpty BoatLeft SheepLeft WolfRight"
+" BoatLeft CabbageLeft SheepLeft WolfInBoat"
+" BoatEmpty BoatLeft SheepRight WolfLeft"
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft"
+" BoatLeft CabbageRight SheepLeft WolfInBoat"
+" BoatEmpty BoatLeft CabbageLeft SheepRight WolfLeft"
+" BoatEmpty BoatLeft SheepRight WolfRight"
+" BoatRight CabbageRight SheepInBoat WolfRight"
+" BoatEmpty BoatRight SheepLeft WolfLeft"
+" BoatLeft CabbageInBoat WolfLeft"
+" BoatEmpty BoatLeft CabbageRight SheepLeft WolfLeft"
+" BoatLeft CabbageLeft SheepInBoat WolfRight"
+" BoatRight SheepInBoat WolfLeft"
+" BoatLeft CabbageLeft SheepInBoat WolfLeft"
+" BoatEmpty BoatRight CabbageLeft WolfLeft"
+" BoatLeft CabbageInBoat SheepLeft WolfRight"
+" BoatEmpty BoatRight WolfLeft"
+" BoatRight SheepRight WolfInBoat"
+" BoatEmpty BoatLeft CabbageLeft WolfRight"
+" BoatEmpty BoatRight SheepRight WolfLeft"
+" BoatRight CabbageInBoat SheepRight WolfLeft"
+" BoatEmpty BoatRight CabbageLeft SheepRight WolfRight"
 " BoatRight CabbageInBoat SheepRight WolfRight"
 " BoatEmpty BoatLeft WolfRight"
-" SheepLeft BoatRight CabbageInBoat WolfRight"
-" WolfLeft CabbageInBoat SheepRight BoatLeft"
-" SheepInBoat CabbageRight BoatLeft WolfRight"
-" WolfInBoat CabbageLeft BoatLeft"
-" WolfInBoat CabbageRight SheepLeft BoatRight"
-" BoatEmpty SheepLeft BoatRight WolfRight"
-" SheepInBoat BoatLeft WolfRight"
-" CabbageInBoat BoatLeft WolfRight"
-" BoatEmpty SheepLeft WolfLeft BoatLeft"
-" CabbageLeft SheepInBoat WolfLeft BoatRight"
-" SheepInBoat WolfLeft BoatLeft"
-" BoatEmpty CabbageRight SheepLeft BoatLeft WolfRight"
-" BoatEmpty CabbageRight BoatRight SheepRight WolfRight"
+" BoatRight CabbageInBoat SheepLeft WolfRight"
+" BoatLeft CabbageInBoat SheepRight WolfLeft"
+" BoatLeft CabbageRight SheepInBoat WolfRight"
+" BoatLeft CabbageLeft WolfInBoat"
+" BoatRight CabbageRight SheepLeft WolfInBoat"
+" BoatEmpty BoatRight SheepLeft WolfRight"
+" BoatLeft SheepInBoat WolfRight"
+" BoatLeft CabbageInBoat WolfRight"
+" BoatEmpty BoatLeft SheepLeft WolfLeft"
+" BoatRight CabbageLeft SheepInBoat WolfLeft"
+" BoatLeft SheepInBoat WolfLeft"
+" BoatEmpty BoatLeft CabbageRight SheepLeft WolfRight"
+" BoatEmpty BoatRight CabbageRight SheepRight WolfRight"
 " BoatRight CabbageInBoat WolfRight"
-" BoatEmpty CabbageRight BoatLeft WolfRight"
-" SheepInBoat CabbageRight WolfLeft BoatLeft"
-" BoatEmpty CabbageLeft SheepLeft BoatLeft WolfRight"
-" BoatEmpty CabbageRight SheepLeft BoatRight WolfRight"
-" WolfLeft BoatRight CabbageInBoat"
-" SheepInBoat CabbageRight WolfLeft BoatRight"
-" BoatEmpty CabbageRight WolfLeft BoatRight"
-" WolfInBoat SheepLeft BoatLeft"
-" BoatEmpty CabbageRight WolfLeft BoatRight SheepRight"
-" WolfInBoat CabbageRight BoatRight"
-" BoatEmpty CabbageLeft WolfLeft BoatLeft"
-" WolfInBoat CabbageLeft BoatRight SheepRight"
-" SheepLeft WolfLeft CabbageInBoat BoatLeft"
-" WolfInBoat SheepLeft BoatRight"
-" WolfInBoat CabbageRight BoatRight SheepRight"
-" WolfInBoat SheepRight BoatLeft"
-" BoatEmpty CabbageRight BoatRight WolfRight"
+" BoatEmpty BoatLeft CabbageRight WolfRight"
+" BoatLeft CabbageRight SheepInBoat WolfLeft"
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfRight"
+" BoatEmpty BoatRight CabbageRight SheepLeft WolfRight"
+" BoatRight CabbageInBoat WolfLeft"
+" BoatRight CabbageRight SheepInBoat WolfLeft"
+" BoatEmpty BoatRight CabbageRight WolfLeft"
+" BoatLeft SheepLeft WolfInBoat"
+" BoatEmpty BoatRight CabbageRight SheepRight WolfLeft"
+" BoatRight CabbageRight WolfInBoat"
+" BoatEmpty BoatLeft CabbageLeft WolfLeft"
+" BoatRight CabbageLeft SheepRight WolfInBoat"
+" BoatLeft CabbageInBoat SheepLeft WolfLeft"
+" BoatRight SheepLeft WolfInBoat"
+" BoatRight CabbageRight SheepRight WolfInBoat"
+" BoatLeft SheepRight WolfInBoat"
+" BoatEmpty BoatRight CabbageRight WolfRight"
 " BoatEmpty BoatRight SheepRight WolfRight"
-" BoatEmpty CabbageLeft WolfLeft BoatRight SheepRight"
-" CabbageLeft SheepInBoat BoatRight WolfRight"
-" SheepInBoat BoatRight WolfRight"
+" BoatEmpty BoatRight CabbageLeft SheepRight WolfLeft"
+" BoatRight CabbageLeft SheepInBoat WolfRight"
+" BoatRight SheepInBoat WolfRight"
 
-" CabbageInBoat BoatLeft WolfRight" -> " BoatEmpty CabbageLeft BoatLeft WolfRight"[label="unloadCabbageLeft"]
-" WolfInBoat SheepRight BoatLeft" -> " WolfInBoat BoatRight SheepRight"[label="moveToRight2"]
-" SheepInBoat BoatRight WolfRight" -> " BoatEmpty BoatRight SheepRight WolfRight"[label="unloadSheepRight"]
-" BoatEmpty CabbageLeft WolfLeft SheepRight BoatLeft" -> " WolfLeft CabbageInBoat SheepRight BoatLeft"[label="loadCabbageLeft"]
-" WolfLeft BoatRight CabbageInBoat" -> " WolfLeft CabbageInBoat BoatLeft"[label="moveToLeft7"]
-" WolfInBoat CabbageRight SheepLeft BoatRight" -> " WolfInBoat CabbageRight SheepLeft BoatLeft"[label="moveToLeft2"]
-" BoatEmpty CabbageRight BoatLeft WolfRight" -> " BoatEmpty CabbageRight BoatRight WolfRight"[label="moveToRight6"]
-" BoatEmpty CabbageLeft SheepLeft BoatLeft WolfRight" -> " CabbageLeft SheepInBoat BoatLeft WolfRight"[label="loadSheepLeft"]
-" CabbageLeft SheepInBoat WolfLeft BoatRight" -> " CabbageLeft SheepInBoat WolfLeft BoatLeft"[label="moveToLeft6"]
-" BoatEmpty SheepLeft WolfLeft BoatRight" -> " BoatEmpty SheepLeft WolfLeft BoatLeft"[label="moveToLeft2"]
-" BoatEmpty WolfLeft BoatRight SheepRight" -> " SheepInBoat WolfLeft BoatRight"[label="loadSheepRight"]
-" CabbageLeft SheepInBoat BoatRight WolfRight" -> " BoatEmpty CabbageLeft BoatRight SheepRight WolfRight"[label="unloadSheepRight"]
+" BoatLeft CabbageInBoat WolfRight" -> " BoatEmpty BoatLeft CabbageLeft WolfRight"[label="unloadCabbageLeft"]
+" BoatLeft SheepRight WolfInBoat" -> " BoatRight SheepRight WolfInBoat"[label="moveToRight2"]
+" BoatRight SheepInBoat WolfRight" -> " BoatEmpty BoatRight SheepRight WolfRight"[label="unloadSheepRight"]
+" BoatEmpty BoatLeft CabbageLeft SheepRight WolfLeft" -> " BoatLeft CabbageInBoat SheepRight WolfLeft"[label="loadCabbageLeft"]
+" BoatRight CabbageInBoat WolfLeft" -> " BoatLeft CabbageInBoat WolfLeft"[label="moveToLeft7"]
+" BoatRight CabbageRight SheepLeft WolfInBoat" -> " BoatLeft CabbageRight SheepLeft WolfInBoat"[label="moveToLeft2"]
+" BoatEmpty BoatLeft CabbageRight WolfRight" -> " BoatEmpty BoatRight CabbageRight WolfRight"[label="moveToRight6"]
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfRight" -> " BoatLeft CabbageLeft SheepInBoat WolfRight"[label="loadSheepLeft"]
+" BoatRight CabbageLeft SheepInBoat WolfLeft" -> " BoatLeft CabbageLeft SheepInBoat WolfLeft"[label="moveToLeft6"]
+" BoatEmpty BoatRight SheepLeft WolfLeft" -> " BoatEmpty BoatLeft SheepLeft WolfLeft"[label="moveToLeft2"]
+" BoatEmpty BoatRight SheepRight WolfLeft" -> " BoatRight SheepInBoat WolfLeft"[label="loadSheepRight"]
+" BoatRight CabbageLeft SheepInBoat WolfRight" -> " BoatEmpty BoatRight CabbageLeft SheepRight WolfRight"[label="unloadSheepRight"]
 " BoatEmpty BoatRight SheepRight WolfRight" -> " BoatEmpty BoatLeft WolfRight"[label="moveToLeft1"]
-" WolfInBoat CabbageRight SheepLeft BoatRight" -> " BoatEmpty CabbageRight SheepLeft BoatRight WolfRight"[label="unloadWolfRight"]
-" BoatEmpty CabbageRight SheepLeft BoatRight WolfRight" -> " BoatEmpty CabbageRight SheepLeft BoatLeft WolfRight"[label="moveToLeft2"]
-" CabbageLeft SheepInBoat WolfLeft BoatRight" -> " CabbageLeft SheepInBoat WolfLeft BoatLeft"[label="moveToLeft3"]
-" BoatEmpty CabbageRight BoatRight SheepRight WolfRight" -> " WolfInBoat CabbageRight BoatRight SheepRight"[label="loadWolfRight"]
-" WolfLeft CabbageInBoat BoatLeft" -> " BoatEmpty CabbageLeft WolfLeft BoatLeft"[label="unloadCabbageLeft"]
-" WolfInBoat CabbageRight BoatRight" -> " BoatEmpty CabbageRight BoatRight WolfRight"[label="unloadWolfRight"]
-" BoatEmpty SheepLeft BoatRight WolfRight" -> " WolfInBoat SheepLeft BoatRight"[label="loadWolfRight"]
-" WolfInBoat CabbageRight SheepLeft BoatLeft" -> " BoatEmpty CabbageRight SheepLeft WolfLeft BoatLeft"[label="unloadWolfLeft"]
-" SheepInBoat WolfLeft BoatLeft" -> " SheepInBoat WolfLeft BoatRight"[label="moveToRight3"]
-" BoatEmpty WolfLeft SheepRight BoatLeft" -> " WolfInBoat SheepRight BoatLeft"[label="loadWolfLeft"]
-" BoatEmpty CabbageRight SheepLeft WolfLeft BoatLeft" -> " BoatEmpty CabbageRight WolfLeft BoatRight"[label="moveToRight1"]
-" BoatEmpty CabbageLeft WolfLeft BoatLeft" -> " WolfLeft CabbageInBoat BoatLeft"[label="loadCabbageLeft"]
-" BoatEmpty CabbageRight BoatRight SheepRight WolfRight" -> " BoatEmpty SheepRight BoatLeft WolfRight"[label="moveToLeft4"]
-" CabbageLeft SheepInBoat WolfLeft BoatLeft" -> " CabbageLeft SheepInBoat WolfLeft BoatRight"[label="moveToRight3"]
-" WolfInBoat CabbageLeft SheepLeft BoatLeft" -> " WolfInBoat SheepLeft BoatRight"[label="moveToRight4"]
-" SheepLeft WolfLeft CabbageInBoat BoatLeft" -> " WolfLeft BoatRight CabbageInBoat"[label="moveToRight1"]
-" SheepInBoat BoatRight WolfRight" -> " SheepInBoat BoatLeft WolfRight"[label="moveToLeft3"]
-" SheepInBoat CabbageRight BoatRight WolfRight" -> " BoatEmpty CabbageRight BoatRight SheepRight WolfRight"[label="unloadSheepRight"]
-" BoatEmpty CabbageRight BoatRight SheepRight WolfRight" -> " SheepInBoat CabbageRight BoatRight WolfRight"[label="loadSheepRight"]
-" BoatEmpty CabbageRight SheepLeft WolfLeft BoatLeft" -> " WolfInBoat CabbageRight SheepLeft BoatLeft"[label="loadWolfLeft"]
-" WolfInBoat CabbageRight BoatRight SheepRight" -> " BoatEmpty CabbageRight BoatRight SheepRight WolfRight"[label="unloadWolfRight"]
-" BoatEmpty CabbageLeft BoatRight SheepRight WolfRight" -> " WolfInBoat CabbageLeft BoatRight SheepRight"[label="loadWolfRight"]
-" BoatEmpty CabbageRight BoatRight WolfRight" -> " WolfInBoat CabbageRight BoatRight"[label="loadWolfRight"]
-" WolfInBoat SheepLeft BoatRight" -> " WolfInBoat SheepLeft BoatLeft"[label="moveToLeft2"]
-" BoatEmpty CabbageRight WolfLeft BoatRight" -> " WolfLeft BoatRight CabbageInBoat"[label="loadCabbageRight"]
-" SheepLeft BoatRight CabbageInBoat WolfRight" -> " SheepLeft CabbageInBoat BoatLeft WolfRight"[label="moveToLeft2"]
-" BoatEmpty SheepLeft BoatRight WolfRight" -> " BoatEmpty SheepLeft BoatLeft WolfRight"[label="moveToLeft2"]
-" BoatRight CabbageInBoat WolfRight" -> " BoatEmpty CabbageRight BoatRight WolfRight"[label="unloadCabbageRight"]
-" BoatEmpty BoatRight SheepRight WolfRight" -> " SheepInBoat BoatRight WolfRight"[label="loadSheepRight"]
-" CabbageLeft SheepInBoat WolfLeft BoatLeft" -> " BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft"[label="unloadSheepLeft"]
-" SheepInBoat CabbageRight BoatLeft WolfRight" -> " BoatEmpty CabbageRight SheepLeft BoatLeft WolfRight"[label="unloadSheepLeft"]
-" BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft" -> " CabbageLeft SheepInBoat WolfLeft BoatLeft"[label="loadSheepLeft"]
-" SheepInBoat CabbageRight WolfLeft BoatRight" -> " BoatEmpty CabbageRight WolfLeft BoatRight SheepRight"[label="unloadSheepRight"]
-" SheepInBoat CabbageRight BoatLeft WolfRight" -> " SheepInBoat CabbageRight BoatRight WolfRight"[label="moveToRight6"]
-" WolfInBoat SheepRight BoatLeft" -> " BoatEmpty WolfLeft SheepRight BoatLeft"[label="unloadWolfLeft"]
-" BoatEmpty BoatRight SheepRight WolfRight" -> " WolfInBoat BoatRight SheepRight"[label="loadWolfRight"]
-" BoatEmpty SheepLeft WolfLeft BoatLeft" -> " WolfInBoat SheepLeft BoatLeft"[label="loadWolfLeft"]
-" WolfInBoat CabbageRight SheepLeft BoatLeft" -> " WolfInBoat CabbageRight SheepLeft BoatRight"[label="moveToRight5"]
-" WolfInBoat CabbageLeft BoatRight SheepRight" -> " BoatEmpty CabbageLeft BoatRight SheepRight WolfRight"[label="unloadWolfRight"]
-" BoatEmpty CabbageLeft WolfLeft BoatRight SheepRight" -> " CabbageLeft SheepInBoat WolfLeft BoatRight"[label="loadSheepRight"]
-" BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft" -> " BoatEmpty SheepLeft WolfLeft BoatRight"[label="moveToRight4"]
-" WolfInBoat CabbageLeft SheepRight BoatLeft" -> " BoatEmpty CabbageLeft WolfLeft SheepRight BoatLeft"[label="unloadWolfLeft"]
-" CabbageLeft SheepInBoat BoatRight WolfRight" -> " CabbageLeft SheepInBoat BoatLeft WolfRight"[label="moveToLeft3"]
-" BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft" -> " WolfInBoat CabbageLeft SheepLeft BoatLeft"[label="loadWolfLeft"]
-" WolfLeft BoatRight CabbageInBoat SheepRight" -> " BoatEmpty CabbageRight WolfLeft BoatRight SheepRight"[label="unloadCabbageRight"]
-" BoatEmpty CabbageLeft SheepLeft BoatLeft WolfRight" -> " SheepLeft CabbageInBoat BoatLeft WolfRight"[label="loadCabbageLeft"]
-" CabbageLeft SheepInBoat BoatLeft WolfRight" -> " CabbageLeft SheepInBoat BoatRight WolfRight"[label="moveToRight3"]
-" SheepLeft CabbageInBoat BoatLeft WolfRight" -> " SheepLeft BoatRight CabbageInBoat WolfRight"[label="moveToRight7"]
-" BoatEmpty CabbageLeft BoatRight SheepRight WolfRight" -> " BoatEmpty CabbageLeft BoatLeft WolfRight"[label="moveToLeft1"]
-" BoatEmpty CabbageLeft WolfLeft BoatRight" -> " BoatEmpty CabbageLeft WolfLeft BoatLeft"[label="moveToLeft6"]
-" WolfLeft BoatRight CabbageInBoat" -> " BoatEmpty CabbageRight WolfLeft BoatRight"[label="unloadCabbageRight"]
-" SheepLeft BoatRight CabbageInBoat WolfRight" -> " BoatEmpty CabbageRight SheepLeft BoatRight WolfRight"[label="unloadCabbageRight"]
-" BoatEmpty CabbageLeft BoatLeft WolfRight" -> " CabbageInBoat BoatLeft WolfRight"[label="loadCabbageLeft"]
-" BoatEmpty CabbageRight SheepLeft BoatRight WolfRight" -> " WolfInBoat CabbageRight SheepLeft BoatRight"[label="loadWolfRight"]
-" BoatEmpty CabbageLeft WolfLeft SheepRight BoatLeft" -> " WolfInBoat CabbageLeft SheepRight BoatLeft"[label="loadWolfLeft"]
-" BoatEmpty CabbageLeft WolfLeft BoatLeft" -> " WolfInBoat CabbageLeft BoatLeft"[label="loadWolfLeft"]
-" BoatEmpty SheepLeft BoatLeft WolfRight" -> " SheepInBoat BoatLeft WolfRight"[label="loadSheepLeft"]
-" WolfLeft BoatRight CabbageInBoat SheepRight" -> " WolfLeft CabbageInBoat SheepRight BoatLeft"[label="moveToLeft7"]
-" BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft" -> " SheepLeft WolfLeft CabbageInBoat BoatLeft"[label="loadCabbageLeft"]
-" BoatEmpty SheepLeft WolfLeft BoatLeft" -> " SheepInBoat WolfLeft BoatLeft"[label="loadSheepLeft"]
-" BoatEmpty CabbageLeft WolfLeft BoatRight SheepRight" -> " BoatEmpty CabbageLeft WolfLeft SheepRight BoatLeft"[label="moveToLeft6"]
-" BoatEmpty SheepLeft WolfLeft BoatLeft" -> " BoatEmpty WolfLeft BoatRight"[label="moveToRight1"]
-" WolfLeft CabbageInBoat SheepRight BoatLeft" -> " BoatEmpty CabbageLeft WolfLeft SheepRight BoatLeft"[label="unloadCabbageLeft"]
-" BoatEmpty CabbageLeft SheepLeft BoatLeft WolfRight" -> " BoatEmpty SheepLeft BoatRight WolfRight"[label="moveToRight4"]
-" BoatEmpty CabbageRight WolfLeft BoatRight SheepRight" -> " BoatEmpty WolfLeft SheepRight BoatLeft"[label="moveToLeft4"]
-" WolfInBoat SheepLeft BoatLeft" -> " BoatEmpty SheepLeft WolfLeft BoatLeft"[label="unloadWolfLeft"]
-" WolfLeft CabbageInBoat SheepRight BoatLeft" -> " WolfLeft BoatRight CabbageInBoat SheepRight"[label="moveToRight2"]
-" BoatEmpty WolfLeft SheepRight BoatLeft" -> " BoatEmpty WolfLeft BoatRight SheepRight"[label="moveToRight2"]
-" SheepLeft CabbageInBoat BoatLeft WolfRight" -> " BoatEmpty CabbageLeft SheepLeft BoatLeft WolfRight"[label="unloadCabbageLeft"]
-" BoatEmpty CabbageRight SheepLeft BoatLeft WolfRight" -> " SheepInBoat CabbageRight BoatLeft WolfRight"[label="loadSheepLeft"]
-" WolfInBoat CabbageLeft BoatLeft" -> " BoatEmpty CabbageLeft WolfLeft BoatLeft"[label="unloadWolfLeft"]
-" SheepInBoat WolfLeft BoatRight" -> " SheepInBoat WolfLeft BoatLeft"[label="moveToLeft3"]
-" WolfInBoat CabbageRight BoatRight SheepRight" -> " WolfInBoat SheepRight BoatLeft"[label="moveToLeft4"]
-" WolfInBoat SheepLeft BoatRight" -> " BoatEmpty SheepLeft BoatRight WolfRight"[label="unloadWolfRight"]
-" BoatEmpty CabbageRight BoatRight WolfRight" -> " BoatRight CabbageInBoat WolfRight"[label="loadCabbageRight"]
-" BoatEmpty CabbageRight BoatRight SheepRight WolfRight" -> " BoatEmpty CabbageRight BoatLeft WolfRight"[label="moveToLeft1"]
-" BoatEmpty CabbageLeft BoatRight SheepRight WolfRight" -> " CabbageLeft SheepInBoat BoatRight WolfRight"[label="loadSheepRight"]
-" BoatEmpty CabbageLeft WolfLeft SheepRight BoatLeft" -> " BoatEmpty CabbageLeft WolfLeft BoatRight SheepRight"[label="moveToRight2"]
-" BoatEmpty CabbageRight SheepLeft BoatLeft WolfRight" -> " BoatEmpty CabbageRight SheepLeft BoatRight WolfRight"[label="moveToRight6"]
-" CabbageLeft SheepInBoat WolfLeft BoatRight" -> " BoatEmpty CabbageLeft WolfLeft BoatRight SheepRight"[label="unloadSheepRight"]
-" SheepInBoat CabbageRight BoatRight WolfRight" -> " SheepInBoat CabbageRight BoatLeft WolfRight"[label="moveToLeft3"]
-" BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft" -> " BoatEmpty CabbageLeft WolfLeft BoatRight"[label="moveToRight1"]
-" SheepInBoat CabbageRight WolfLeft BoatLeft" -> " BoatEmpty CabbageRight SheepLeft WolfLeft BoatLeft"[label="unloadSheepLeft"]
-" SheepInBoat BoatLeft WolfRight" -> " BoatEmpty SheepLeft BoatLeft WolfRight"[label="unloadSheepLeft"]
-" BoatEmpty CabbageRight WolfLeft BoatRight SheepRight" -> " WolfLeft BoatRight CabbageInBoat SheepRight"[label="loadCabbageRight"]
-" SheepInBoat WolfLeft BoatRight" -> " BoatEmpty WolfLeft BoatRight SheepRight"[label="unloadSheepRight"]
-" WolfInBoat BoatRight SheepRight" -> " BoatEmpty BoatRight SheepRight WolfRight"[label="unloadWolfRight"]
-" SheepInBoat CabbageRight BoatLeft WolfRight" -> " SheepInBoat CabbageRight BoatRight WolfRight"[label="moveToRight3"]
-" BoatRight CabbageInBoat SheepRight WolfRight" -> " CabbageInBoat BoatLeft WolfRight"[label="moveToLeft1"]
-" SheepInBoat WolfLeft BoatLeft" -> " BoatEmpty SheepLeft WolfLeft BoatLeft"[label="unloadSheepLeft"]
-" CabbageLeft SheepInBoat BoatLeft WolfRight" -> " BoatEmpty CabbageLeft SheepLeft BoatLeft WolfRight"[label="unloadSheepLeft"]
-" BoatEmpty CabbageRight BoatRight SheepRight WolfRight" -> " BoatRight CabbageInBoat SheepRight WolfRight"[label="loadCabbageRight"]
-" BoatEmpty CabbageRight WolfLeft BoatRight SheepRight" -> " SheepInBoat CabbageRight WolfLeft BoatRight"[label="loadSheepRight"]
-" BoatEmpty CabbageRight SheepLeft WolfLeft BoatLeft" -> " SheepInBoat CabbageRight WolfLeft BoatLeft"[label="loadSheepLeft"]
-" SheepLeft WolfLeft CabbageInBoat BoatLeft" -> " BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft"[label="unloadCabbageLeft"]
-" SheepInBoat BoatLeft WolfRight" -> " SheepInBoat BoatRight WolfRight"[label="moveToRight3"]
-" WolfInBoat CabbageLeft BoatRight SheepRight" -> " WolfInBoat CabbageLeft SheepRight BoatLeft"[label="moveToLeft5"]
-" WolfInBoat CabbageLeft SheepRight BoatLeft" -> " WolfInBoat CabbageLeft BoatRight SheepRight"[label="moveToRight2"]
-" SheepInBoat CabbageRight WolfLeft BoatRight" -> " SheepInBoat CabbageRight WolfLeft BoatLeft"[label="moveToLeft3"]
-" WolfInBoat CabbageLeft SheepLeft BoatLeft" -> " BoatEmpty CabbageLeft SheepLeft WolfLeft BoatLeft"[label="unloadWolfLeft"]
-" SheepInBoat CabbageRight WolfLeft BoatLeft" -> " SheepInBoat CabbageRight WolfLeft BoatRight"[label="moveToRight3"]
-" BoatRight CabbageInBoat SheepRight WolfRight" -> " BoatEmpty CabbageRight BoatRight SheepRight WolfRight"[label="unloadCabbageRight"]
-" BoatEmpty SheepRight BoatLeft WolfRight" -> " BoatEmpty BoatRight SheepRight WolfRight"[label="moveToRight2"]
-" CabbageInBoat BoatLeft WolfRight" -> " BoatRight CabbageInBoat WolfRight"[label="moveToRight7"]
-" BoatEmpty CabbageRight SheepLeft BoatRight WolfRight" -> " SheepLeft BoatRight CabbageInBoat WolfRight"[label="loadCabbageRight"]
+" BoatRight CabbageRight SheepLeft WolfInBoat" -> " BoatEmpty BoatRight CabbageRight SheepLeft WolfRight"[label="unloadWolfRight"]
+" BoatEmpty BoatRight CabbageRight SheepLeft WolfRight" -> " BoatEmpty BoatLeft CabbageRight SheepLeft WolfRight"[label="moveToLeft2"]
+" BoatRight CabbageLeft SheepInBoat WolfLeft" -> " BoatLeft CabbageLeft SheepInBoat WolfLeft"[label="moveToLeft3"]
+" BoatEmpty BoatRight CabbageRight SheepRight WolfRight" -> " BoatRight CabbageRight SheepRight WolfInBoat"[label="loadWolfRight"]
+" BoatLeft CabbageInBoat WolfLeft" -> " BoatEmpty BoatLeft CabbageLeft WolfLeft"[label="unloadCabbageLeft"]
+" BoatRight CabbageRight WolfInBoat" -> " BoatEmpty BoatRight CabbageRight WolfRight"[label="unloadWolfRight"]
+" BoatEmpty BoatRight SheepLeft WolfRight" -> " BoatRight SheepLeft WolfInBoat"[label="loadWolfRight"]
+" BoatLeft CabbageRight SheepLeft WolfInBoat" -> " BoatEmpty BoatLeft CabbageRight SheepLeft WolfLeft"[label="unloadWolfLeft"]
+" BoatLeft SheepInBoat WolfLeft" -> " BoatRight SheepInBoat WolfLeft"[label="moveToRight3"]
+" BoatEmpty BoatLeft SheepRight WolfLeft" -> " BoatLeft SheepRight WolfInBoat"[label="loadWolfLeft"]
+" BoatEmpty BoatLeft CabbageRight SheepLeft WolfLeft" -> " BoatEmpty BoatRight CabbageRight WolfLeft"[label="moveToRight1"]
+" BoatEmpty BoatLeft CabbageLeft WolfLeft" -> " BoatLeft CabbageInBoat WolfLeft"[label="loadCabbageLeft"]
+" BoatEmpty BoatRight CabbageRight SheepRight WolfRight" -> " BoatEmpty BoatLeft SheepRight WolfRight"[label="moveToLeft4"]
+" BoatLeft CabbageLeft SheepInBoat WolfLeft" -> " BoatRight CabbageLeft SheepInBoat WolfLeft"[label="moveToRight3"]
+" BoatLeft CabbageLeft SheepLeft WolfInBoat" -> " BoatRight SheepLeft WolfInBoat"[label="moveToRight4"]
+" BoatLeft CabbageInBoat SheepLeft WolfLeft" -> " BoatRight CabbageInBoat WolfLeft"[label="moveToRight1"]
+" BoatRight SheepInBoat WolfRight" -> " BoatLeft SheepInBoat WolfRight"[label="moveToLeft3"]
+" BoatRight CabbageRight SheepInBoat WolfRight" -> " BoatEmpty BoatRight CabbageRight SheepRight WolfRight"[label="unloadSheepRight"]
+" BoatEmpty BoatRight CabbageRight SheepRight WolfRight" -> " BoatRight CabbageRight SheepInBoat WolfRight"[label="loadSheepRight"]
+" BoatEmpty BoatLeft CabbageRight SheepLeft WolfLeft" -> " BoatLeft CabbageRight SheepLeft WolfInBoat"[label="loadWolfLeft"]
+" BoatRight CabbageRight SheepRight WolfInBoat" -> " BoatEmpty BoatRight CabbageRight SheepRight WolfRight"[label="unloadWolfRight"]
+" BoatEmpty BoatRight CabbageLeft SheepRight WolfRight" -> " BoatRight CabbageLeft SheepRight WolfInBoat"[label="loadWolfRight"]
+" BoatEmpty BoatRight CabbageRight WolfRight" -> " BoatRight CabbageRight WolfInBoat"[label="loadWolfRight"]
+" BoatRight SheepLeft WolfInBoat" -> " BoatLeft SheepLeft WolfInBoat"[label="moveToLeft2"]
+" BoatEmpty BoatRight CabbageRight WolfLeft" -> " BoatRight CabbageInBoat WolfLeft"[label="loadCabbageRight"]
+" BoatRight CabbageInBoat SheepLeft WolfRight" -> " BoatLeft CabbageInBoat SheepLeft WolfRight"[label="moveToLeft2"]
+" BoatEmpty BoatRight SheepLeft WolfRight" -> " BoatEmpty BoatLeft SheepLeft WolfRight"[label="moveToLeft2"]
+" BoatRight CabbageInBoat WolfRight" -> " BoatEmpty BoatRight CabbageRight WolfRight"[label="unloadCabbageRight"]
+" BoatEmpty BoatRight SheepRight WolfRight" -> " BoatRight SheepInBoat WolfRight"[label="loadSheepRight"]
+" BoatLeft CabbageLeft SheepInBoat WolfLeft" -> " BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft"[label="unloadSheepLeft"]
+" BoatLeft CabbageRight SheepInBoat WolfRight" -> " BoatEmpty BoatLeft CabbageRight SheepLeft WolfRight"[label="unloadSheepLeft"]
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft" -> " BoatLeft CabbageLeft SheepInBoat WolfLeft"[label="loadSheepLeft"]
+" BoatRight CabbageRight SheepInBoat WolfLeft" -> " BoatEmpty BoatRight CabbageRight SheepRight WolfLeft"[label="unloadSheepRight"]
+" BoatLeft CabbageRight SheepInBoat WolfRight" -> " BoatRight CabbageRight SheepInBoat WolfRight"[label="moveToRight6"]
+" BoatLeft SheepRight WolfInBoat" -> " BoatEmpty BoatLeft SheepRight WolfLeft"[label="unloadWolfLeft"]
+" BoatEmpty BoatRight SheepRight WolfRight" -> " BoatRight SheepRight WolfInBoat"[label="loadWolfRight"]
+" BoatEmpty BoatLeft SheepLeft WolfLeft" -> " BoatLeft SheepLeft WolfInBoat"[label="loadWolfLeft"]
+" BoatLeft CabbageRight SheepLeft WolfInBoat" -> " BoatRight CabbageRight SheepLeft WolfInBoat"[label="moveToRight5"]
+" BoatRight CabbageLeft SheepRight WolfInBoat" -> " BoatEmpty BoatRight CabbageLeft SheepRight WolfRight"[label="unloadWolfRight"]
+" BoatEmpty BoatRight CabbageLeft SheepRight WolfLeft" -> " BoatRight CabbageLeft SheepInBoat WolfLeft"[label="loadSheepRight"]
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft" -> " BoatEmpty BoatRight SheepLeft WolfLeft"[label="moveToRight4"]
+" BoatLeft CabbageLeft SheepRight WolfInBoat" -> " BoatEmpty BoatLeft CabbageLeft SheepRight WolfLeft"[label="unloadWolfLeft"]
+" BoatRight CabbageLeft SheepInBoat WolfRight" -> " BoatLeft CabbageLeft SheepInBoat WolfRight"[label="moveToLeft3"]
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft" -> " BoatLeft CabbageLeft SheepLeft WolfInBoat"[label="loadWolfLeft"]
+" BoatRight CabbageInBoat SheepRight WolfLeft" -> " BoatEmpty BoatRight CabbageRight SheepRight WolfLeft"[label="unloadCabbageRight"]
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfRight" -> " BoatLeft CabbageInBoat SheepLeft WolfRight"[label="loadCabbageLeft"]
+" BoatLeft CabbageLeft SheepInBoat WolfRight" -> " BoatRight CabbageLeft SheepInBoat WolfRight"[label="moveToRight3"]
+" BoatLeft CabbageInBoat SheepLeft WolfRight" -> " BoatRight CabbageInBoat SheepLeft WolfRight"[label="moveToRight7"]
+" BoatEmpty BoatRight CabbageLeft SheepRight WolfRight" -> " BoatEmpty BoatLeft CabbageLeft WolfRight"[label="moveToLeft1"]
+" BoatEmpty BoatRight CabbageLeft WolfLeft" -> " BoatEmpty BoatLeft CabbageLeft WolfLeft"[label="moveToLeft6"]
+" BoatRight CabbageInBoat WolfLeft" -> " BoatEmpty BoatRight CabbageRight WolfLeft"[label="unloadCabbageRight"]
+" BoatRight CabbageInBoat SheepLeft WolfRight" -> " BoatEmpty BoatRight CabbageRight SheepLeft WolfRight"[label="unloadCabbageRight"]
+" BoatEmpty BoatLeft CabbageLeft WolfRight" -> " BoatLeft CabbageInBoat WolfRight"[label="loadCabbageLeft"]
+" BoatEmpty BoatRight CabbageRight SheepLeft WolfRight" -> " BoatRight CabbageRight SheepLeft WolfInBoat"[label="loadWolfRight"]
+" BoatEmpty BoatLeft CabbageLeft SheepRight WolfLeft" -> " BoatLeft CabbageLeft SheepRight WolfInBoat"[label="loadWolfLeft"]
+" BoatEmpty BoatLeft CabbageLeft WolfLeft" -> " BoatLeft CabbageLeft WolfInBoat"[label="loadWolfLeft"]
+" BoatEmpty BoatLeft SheepLeft WolfRight" -> " BoatLeft SheepInBoat WolfRight"[label="loadSheepLeft"]
+" BoatRight CabbageInBoat SheepRight WolfLeft" -> " BoatLeft CabbageInBoat SheepRight WolfLeft"[label="moveToLeft7"]
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft" -> " BoatLeft CabbageInBoat SheepLeft WolfLeft"[label="loadCabbageLeft"]
+" BoatEmpty BoatLeft SheepLeft WolfLeft" -> " BoatLeft SheepInBoat WolfLeft"[label="loadSheepLeft"]
+" BoatEmpty BoatRight CabbageLeft SheepRight WolfLeft" -> " BoatEmpty BoatLeft CabbageLeft SheepRight WolfLeft"[label="moveToLeft6"]
+" BoatEmpty BoatLeft SheepLeft WolfLeft" -> " BoatEmpty BoatRight WolfLeft"[label="moveToRight1"]
+" BoatLeft CabbageInBoat SheepRight WolfLeft" -> " BoatEmpty BoatLeft CabbageLeft SheepRight WolfLeft"[label="unloadCabbageLeft"]
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfRight" -> " BoatEmpty BoatRight SheepLeft WolfRight"[label="moveToRight4"]
+" BoatEmpty BoatRight CabbageRight SheepRight WolfLeft" -> " BoatEmpty BoatLeft SheepRight WolfLeft"[label="moveToLeft4"]
+" BoatLeft SheepLeft WolfInBoat" -> " BoatEmpty BoatLeft SheepLeft WolfLeft"[label="unloadWolfLeft"]
+" BoatLeft CabbageInBoat SheepRight WolfLeft" -> " BoatRight CabbageInBoat SheepRight WolfLeft"[label="moveToRight2"]
+" BoatEmpty BoatLeft SheepRight WolfLeft" -> " BoatEmpty BoatRight SheepRight WolfLeft"[label="moveToRight2"]
+" BoatLeft CabbageInBoat SheepLeft WolfRight" -> " BoatEmpty BoatLeft CabbageLeft SheepLeft WolfRight"[label="unloadCabbageLeft"]
+" BoatEmpty BoatLeft CabbageRight SheepLeft WolfRight" -> " BoatLeft CabbageRight SheepInBoat WolfRight"[label="loadSheepLeft"]
+" BoatLeft CabbageLeft WolfInBoat" -> " BoatEmpty BoatLeft CabbageLeft WolfLeft"[label="unloadWolfLeft"]
+" BoatRight SheepInBoat WolfLeft" -> " BoatLeft SheepInBoat WolfLeft"[label="moveToLeft3"]
+" BoatRight CabbageRight SheepRight WolfInBoat" -> " BoatLeft SheepRight WolfInBoat"[label="moveToLeft4"]
+" BoatRight SheepLeft WolfInBoat" -> " BoatEmpty BoatRight SheepLeft WolfRight"[label="unloadWolfRight"]
+" BoatEmpty BoatRight CabbageRight WolfRight" -> " BoatRight CabbageInBoat WolfRight"[label="loadCabbageRight"]
+" BoatEmpty BoatRight CabbageRight SheepRight WolfRight" -> " BoatEmpty BoatLeft CabbageRight WolfRight"[label="moveToLeft1"]
+" BoatEmpty BoatRight CabbageLeft SheepRight WolfRight" -> " BoatRight CabbageLeft SheepInBoat WolfRight"[label="loadSheepRight"]
+" BoatEmpty BoatLeft CabbageLeft SheepRight WolfLeft" -> " BoatEmpty BoatRight CabbageLeft SheepRight WolfLeft"[label="moveToRight2"]
+" BoatEmpty BoatLeft CabbageRight SheepLeft WolfRight" -> " BoatEmpty BoatRight CabbageRight SheepLeft WolfRight"[label="moveToRight6"]
+" BoatRight CabbageLeft SheepInBoat WolfLeft" -> " BoatEmpty BoatRight CabbageLeft SheepRight WolfLeft"[label="unloadSheepRight"]
+" BoatRight CabbageRight SheepInBoat WolfRight" -> " BoatLeft CabbageRight SheepInBoat WolfRight"[label="moveToLeft3"]
+" BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft" -> " BoatEmpty BoatRight CabbageLeft WolfLeft"[label="moveToRight1"]
+" BoatLeft CabbageRight SheepInBoat WolfLeft" -> " BoatEmpty BoatLeft CabbageRight SheepLeft WolfLeft"[label="unloadSheepLeft"]
+" BoatLeft SheepInBoat WolfRight" -> " BoatEmpty BoatLeft SheepLeft WolfRight"[label="unloadSheepLeft"]
+" BoatEmpty BoatRight CabbageRight SheepRight WolfLeft" -> " BoatRight CabbageInBoat SheepRight WolfLeft"[label="loadCabbageRight"]
+" BoatRight SheepInBoat WolfLeft" -> " BoatEmpty BoatRight SheepRight WolfLeft"[label="unloadSheepRight"]
+" BoatRight SheepRight WolfInBoat" -> " BoatEmpty BoatRight SheepRight WolfRight"[label="unloadWolfRight"]
+" BoatLeft CabbageRight SheepInBoat WolfRight" -> " BoatRight CabbageRight SheepInBoat WolfRight"[label="moveToRight3"]
+" BoatRight CabbageInBoat SheepRight WolfRight" -> " BoatLeft CabbageInBoat WolfRight"[label="moveToLeft1"]
+" BoatLeft SheepInBoat WolfLeft" -> " BoatEmpty BoatLeft SheepLeft WolfLeft"[label="unloadSheepLeft"]
+" BoatLeft CabbageLeft SheepInBoat WolfRight" -> " BoatEmpty BoatLeft CabbageLeft SheepLeft WolfRight"[label="unloadSheepLeft"]
+" BoatEmpty BoatRight CabbageRight SheepRight WolfRight" -> " BoatRight CabbageInBoat SheepRight WolfRight"[label="loadCabbageRight"]
+" BoatEmpty BoatRight CabbageRight SheepRight WolfLeft" -> " BoatRight CabbageRight SheepInBoat WolfLeft"[label="loadSheepRight"]
+" BoatEmpty BoatLeft CabbageRight SheepLeft WolfLeft" -> " BoatLeft CabbageRight SheepInBoat WolfLeft"[label="loadSheepLeft"]
+" BoatLeft CabbageInBoat SheepLeft WolfLeft" -> " BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft"[label="unloadCabbageLeft"]
+" BoatLeft SheepInBoat WolfRight" -> " BoatRight SheepInBoat WolfRight"[label="moveToRight3"]
+" BoatRight CabbageLeft SheepRight WolfInBoat" -> " BoatLeft CabbageLeft SheepRight WolfInBoat"[label="moveToLeft5"]
+" BoatLeft CabbageLeft SheepRight WolfInBoat" -> " BoatRight CabbageLeft SheepRight WolfInBoat"[label="moveToRight2"]
+" BoatRight CabbageRight SheepInBoat WolfLeft" -> " BoatLeft CabbageRight SheepInBoat WolfLeft"[label="moveToLeft3"]
+" BoatLeft CabbageLeft SheepLeft WolfInBoat" -> " BoatEmpty BoatLeft CabbageLeft SheepLeft WolfLeft"[label="unloadWolfLeft"]
+" BoatLeft CabbageRight SheepInBoat WolfLeft" -> " BoatRight CabbageRight SheepInBoat WolfLeft"[label="moveToRight3"]
+" BoatRight CabbageInBoat SheepRight WolfRight" -> " BoatEmpty BoatRight CabbageRight SheepRight WolfRight"[label="unloadCabbageRight"]
+" BoatEmpty BoatLeft SheepRight WolfRight" -> " BoatEmpty BoatRight SheepRight WolfRight"[label="moveToRight2"]
+" BoatLeft CabbageInBoat WolfRight" -> " BoatRight CabbageInBoat WolfRight"[label="moveToRight7"]
+" BoatEmpty BoatRight CabbageRight SheepLeft WolfRight" -> " BoatRight CabbageInBoat SheepLeft WolfRight"[label="loadCabbageRight"]
 }
